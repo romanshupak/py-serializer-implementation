@@ -16,4 +16,3 @@ def deserialize_car_object(json_data: bytes) -> Car:
         return car_serializer.save()
     else:
         raise ValueError("Invalid data for deserialization")
-
